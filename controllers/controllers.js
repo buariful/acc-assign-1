@@ -6,7 +6,6 @@ const { writeData } = require('../handleData/writeData');
 const path = DBPath.dirname(__dirname).concat("/databse/userData.json");
 const users = JSON.parse(fs.readFileSync(path))
 
-
 module.exports.bulkUpdate = (id, data) => {
     const targetedUser = users.find(user => user.id === Number(id))
 
