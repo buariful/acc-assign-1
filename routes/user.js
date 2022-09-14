@@ -72,7 +72,4 @@ userRoutes
         }
     })
 
-
-
-
 module.exports = userRoutes;
